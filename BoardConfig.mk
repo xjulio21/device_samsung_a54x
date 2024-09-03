@@ -28,6 +28,8 @@ TARGET_NO_BOOTLOADER := true
 # Display
 TARGET_SCREEN_DENSITY := 403
 
+BUILD_BROKEN_DUP_RULES := true
+
 # Disable code checking during runtime
 DALVIK_VERIFY_NONE := true
 
