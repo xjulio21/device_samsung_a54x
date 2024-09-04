@@ -14,9 +14,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from a54x device
 $(call inherit-product, device/samsung/a54x/device.mk)
 
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
