@@ -28,9 +28,11 @@ TARGET_NO_BOOTLOADER := true
 # Display
 TARGET_SCREEN_DENSITY := 403
 
+# Fingerprint
 USE_FINGERPRINT := true
 TARGET_FINGERPRINT_SENSOR := goodix
 
+# Build Broken
 BUILD_BROKEN_DUP_RULES := true
 
 # Disable code checking during runtime
