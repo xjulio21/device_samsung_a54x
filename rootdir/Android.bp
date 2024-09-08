@@ -56,7 +56,7 @@ sh_binary {
 // Init configuration files
 // fstab
 prebuilt_etc {
-    name: "fstab.s5e8835",
-    src: "etc/fstab.s5e8835",
+    name: "fstab.ramplus",
+    src: "etc/fstab.ramplus",
     vendor: true,
 }
