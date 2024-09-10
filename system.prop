@@ -102,3 +102,7 @@ ro.vendor.qti.va_aosp.support=1
 ro.wifi.channels=
 security.perf_harden=1
 sys.hqm.support=true
+ro.hardware.bluetooth=5.3
+ro.hardware.wifi=wifi
+ro.hardware.nfc=nfc
+ro.hardware.fingerprint=goodix
