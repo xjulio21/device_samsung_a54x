@@ -63,6 +63,7 @@ TARGET_KERNEL_CONFIG := s5e8835-a54xnsxx_defconfig
 KERNEL_MAKE_FLAGS += PAHOLE=$(BUILD_TOP)/prebuilts/kernel-build-tools/linux-x86/bin/pahole
 TARGET_LINUX_KERNEL_VERSION := 5.15
 TARGET_KERNEL_SOURCE := kernel/samsung/a54x
+KERNEL_LD := LD=ld.lld
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_USE_LTO := true
 TARGET_KERNEL_CLANG_COMPILE := true
